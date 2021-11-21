@@ -14,8 +14,9 @@ import java.util.List;
  */
 public class ExportadorListaProdutoCSV extends AbstractExportadorListaProduto {
     
-     private static final String SEPARADOR_LN = "\n";
+     private static final String SEPARADOR_LN = System.lineSeparator();
     private static final String SEPARADOR_COL = ",";
+   
 
     @Override
     public String abrirTabela() {
